@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.gameContainer {
+    font-family: "Roboto", cursive;
+    text-align: center;
+}
+
+.cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+}
+
+.video{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
+
+.playTable{
+    padding: 20px;
+    border-radius: 20px;
+    background: #cecece88;
+    width: 300px;
+}
+
+#restartBtn{
+    outline: none;
+    border: none;
+    background: #94d57d;
+    padding: 3px 18px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
